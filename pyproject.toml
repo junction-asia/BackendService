@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "junctionbackend"
+version = "0.1.0"
+description = ""
+authors = ["yun <ddr04014@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.2.4"
+python-dotenv = "^1.0.0"
+django-ninja = "^0.22.2"
+psycopg2-binary = "^2.9.7"
+pyjwt = "^2.8.0"
+django-extensions = "^3.2.3"
+postgis = "^1.0.4"
+orjson = "^3.9.5"
+boto3 = "^1.28.30"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
